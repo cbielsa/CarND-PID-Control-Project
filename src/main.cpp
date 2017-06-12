@@ -35,7 +35,7 @@ std::string hasData(std::string s) {
 
 // true to optimize steering PID parameters with Twiddle,
 // false to drive with fixed parameters
-bool optimize = true;
+bool optimize = false;
 
 // optimization hyper-parameters used in case optimize:=true
 const int iNumCyclesOptimization = 1500;
